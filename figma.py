@@ -46,6 +46,10 @@ class Figma:
         json_result = resp.json()
         image_url = json_result['images'][node_id.replace('-', ':')] # weirdly the node-id is formatted with colons instead of hyphens here
         print(f"Image URL: {image_url}")
+
+        if image_url is None:
+            print(f"Rendering failed for {figma_url} - no image URL found. Link is no longer valid?")
+            raise ValueError(f"Rendering failed for {figma_url} - no image URL found. Link is no longer valid?")
         
         # Download image
         img_resp = requests.get(image_url)
@@ -54,3 +58,4 @@ class Figma:
             f.write(img_resp.content)
         
         print(f"Rendered image saved as {out_filename}")
+        return out_filename

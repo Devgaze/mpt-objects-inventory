@@ -79,7 +79,7 @@ def render_figma_images(object_schema):
         
         filename = object_name + '-' + path.replace('.', '-') + '.png'
         print(f"Rendering {last_value} to {filename}")
-        figma.render_figma_png(last_value, f'{cfg.TEMP_RENDER_FOLDER}/{filename}')
+        image_filename = figma.render_figma_png(last_value, f'{cfg.TEMP_RENDER_FOLDER}/{filename}')
         rendered_files.append(filename)
 
     return rendered_files

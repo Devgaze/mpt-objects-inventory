@@ -3,6 +3,7 @@
 from config import Config
 import re
 import requests
+import json
 from bs4 import BeautifulSoup
 import os
 
@@ -23,6 +24,63 @@ class Confluence:
 
     def get_confluence_page_id_from_url(self, confluence_page_url):
         return confluence_page_url.split('/pages/')[1].split('/')[0]
+
+
+    def make_page_full_width(self, page_url):
+
+        page_id = self.get_confluence_page_id_from_url(page_url)
+        property_key = "content-appearance-published"
+        properties_base_url = f"{cfg.CONFLUENCE_BASE_URL}/api/v2/pages/{page_id}/properties"
+
+        payload = {
+            "key": property_key,
+            "value": "full-width"
+        }
+
+        # Get all properties of the page first
+        properties_response = requests.get(
+            properties_base_url,
+            headers={
+                "Accept": "application/json"
+            },
+            auth=cfg.CONFLUENCE_AUTH
+        )
+        properties_response.raise_for_status()
+        print(f"Current page properties: {properties_response.text}")
+
+        properties = properties_response.json()
+        full_width_property = None
+        for property in properties.get('results', []):
+            _key = property['key']
+            if _key == property_key:
+                full_width_property = property
+                break
+
+        if full_width_property:
+            print(f'deleting existing property {property_key}...')
+            # delete if existing
+            response = requests.delete(
+                f"{properties_base_url}/{full_width_property['id']}",
+                headers={
+                    "Accept": "application/json"
+                },
+                auth=cfg.CONFLUENCE_AUTH
+            )
+            response.raise_for_status()
+            print(f"Deleted existing property {property_key}: {response.text}")
+
+        # Now force create the property with the correct value
+        response = requests.post(
+            properties_base_url,
+            headers={
+                "Accept": "application/json",
+                "Content-Type": "application/json"
+            },
+            auth=cfg.CONFLUENCE_AUTH,
+            json=payload
+        )
+
+        response.raise_for_status()
 
 
     def upload_image_to_confluence(self, page_url, image_path):
@@ -143,4 +201,8 @@ class Confluence:
         }
         put_response = requests.put(api_url, headers=headers, json=payload, auth=cfg.CONFLUENCE_AUTH)
         put_response.raise_for_status()
+
+        # also just to make sure all these pages look alike, we make it full width
+        self.make_page_full_width(page_url)
+
         return put_response.json()

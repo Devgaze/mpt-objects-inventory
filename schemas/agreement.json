@@ -4,14 +4,14 @@
     "state-diagram": "https://www.figma.com/design/rHxTpbi2gpbZ4dmVlyeY2S/Object-Diagrams?node-id=44-272&t=dR2OVccKNCA0oWWg-1",
     "desktop": {
         "grid-view": {
-            "vendor": "https://www.figma.com/design/dyiwmimDJgaav0uQW9eHgf/Marketplace-Platform?node-id=34235-223480&t=5E2zABFflocKRfko-1",
-            "operations": "https://www.figma.com/design/dyiwmimDJgaav0uQW9eHgf/Marketplace-Platform?node-id=34235-221217&t=5E2zABFflocKRfko-1",
-            "client": "https://www.figma.com/design/dyiwmimDJgaav0uQW9eHgf/Marketplace-Platform?node-id=34235-228498&t=5E2zABFflocKRfko-1"
+            "vendor": null,
+            "operations": null,
+            "client": null
         },
         "details-view": {
-            "vendor": "https://www.figma.com/design/dyiwmimDJgaav0uQW9eHgf/Marketplace-Platform?node-id=47057-318530&t=5E2zABFflocKRfko-1",
-            "operations": "https://www.figma.com/design/dyiwmimDJgaav0uQW9eHgf/Marketplace-Platform?node-id=47057-313327&t=5E2zABFflocKRfko-1",
-            "client": "https://www.figma.com/design/dyiwmimDJgaav0uQW9eHgf/Marketplace-Platform?node-id=47057-323702&t=5E2zABFflocKRfko-1"
+            "vendor": null,
+            "operations": null,
+            "client": null
         },
         "infocard-view": {
             "vendor": "https://www.figma.com/design/dyiwmimDJgaav0uQW9eHgf/Marketplace-Platform?node-id=58554-115186&t=NcndYOV8EJ5lvfDL-1",
