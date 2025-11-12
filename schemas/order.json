@@ -4,14 +4,14 @@
     "state-diagram": "https://www.figma.com/design/rHxTpbi2gpbZ4dmVlyeY2S/Object-Diagrams?node-id=6-364&t=L4IznjT8n7VAlv8s-0",
     "desktop": {
         "grid-view": {
-            "vendor": "https://www.figma.com/proto/dyiwmimDJgaav0uQW9eHgf/Marketplace-Platform?node-id=34235-251503&p=f&t=FDp99LyYm39lehxp-1&scaling=scale-down&content-scaling=fixed&page-id=1271%3A40663&starting-point-node-id=34235%3A251503",
-            "operations": "https://www.figma.com/proto/dyiwmimDJgaav0uQW9eHgf/Marketplace-Platform?node-id=67060-1121044&p=f&t=FDp99LyYm39lehxp-1&scaling=scale-down&content-scaling=fixed&page-id=1271%3A40663&starting-point-node-id=67060%3A1121044&show-proto-sidebar=1",
-            "client": "https://www.figma.com/proto/dyiwmimDJgaav0uQW9eHgf/Marketplace-Platform?node-id=34235-259718&p=f&t=FDp99LyYm39lehxp-1&scaling=scale-down&content-scaling=fixed&page-id=1271%3A40663&starting-point-node-id=34235%3A259718&show-proto-sidebar=1"
+            "vendor": "https://www.figma.com/design/sMYzX191RktVW9iseyttjO/Commerce?node-id=16-260294&t=o2YvyPpeaSaSSci8-0",
+            "operations": "https://www.figma.com/design/sMYzX191RktVW9iseyttjO/Commerce?node-id=16-259350&t=o2YvyPpeaSaSSci8-0",
+            "client": "https://www.figma.com/design/sMYzX191RktVW9iseyttjO/Commerce?node-id=16-254650&t=o2YvyPpeaSaSSci8-0"
         },
         "details-view": {
-            "vendor": "https://www.figma.com/design/dyiwmimDJgaav0uQW9eHgf/Marketplace-Platform?node-id=20893-68134&t=sIjDicft2wEMevEO-1",
-            "operations": "https://www.figma.com/design/dyiwmimDJgaav0uQW9eHgf/Marketplace-Platform?node-id=14346-524565&t=sIjDicft2wEMevEO-1",
-            "client": "https://www.figma.com/design/dyiwmimDJgaav0uQW9eHgf/Marketplace-Platform?node-id=9731-488452&t=sIjDicft2wEMevEO-1"
+            "vendor": "https://www.figma.com/design/sMYzX191RktVW9iseyttjO/Commerce?node-id=16-260628&t=o2YvyPpeaSaSSci8-0",
+            "operations": "https://www.figma.com/design/sMYzX191RktVW9iseyttjO/Commerce?node-id=16-257843&t=o2YvyPpeaSaSSci8-0",
+            "client": "https://www.figma.com/design/sMYzX191RktVW9iseyttjO/Commerce?node-id=16-255915&t=o2YvyPpeaSaSSci8-0"
         },
         "infocard-view": {
             "vendor": "https://www.figma.com/proto/dyiwmimDJgaav0uQW9eHgf/Marketplace-Platform?node-id=58554-115615&t=sIjDicft2wEMevEO-1",

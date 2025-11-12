@@ -233,7 +233,7 @@ def update_confluence_page(rendered_files, object_schema):
 
 
 def get_all_schema_files():
-    schema_files = glob.glob('./schemas/*.json')
+    schema_files = sorted(glob.glob('./schemas/*.json'))
     return schema_files
 
 
