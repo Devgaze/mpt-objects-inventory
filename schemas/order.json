@@ -21,14 +21,14 @@
     },
     "mobile": {
         "list-view": {
-            "vendor": null,
-            "operations": null,
-            "client": null
+            "vendor": "https://www.figma.com/design/y150KEJI7hSn7KzRuG8uyu/Native-Apps?node-id=4295-44757&t=EdOkgvkkFEoP780Y-1",
+            "operations": "https://www.figma.com/design/y150KEJI7hSn7KzRuG8uyu/Native-Apps?node-id=4295-44198&t=EdOkgvkkFEoP780Y-1",
+            "client": "https://www.figma.com/design/y150KEJI7hSn7KzRuG8uyu/Native-Apps?node-id=4295-44470&t=EdOkgvkkFEoP780Y-1"
         },
         "details-view": {
-            "vendor": null,
-            "operations": null,
-            "client": null
+            "vendor": "https://www.figma.com/design/y150KEJI7hSn7KzRuG8uyu/Native-Apps?node-id=4237-43073&t=EdOkgvkkFEoP780Y-1",
+            "operations": "https://www.figma.com/design/y150KEJI7hSn7KzRuG8uyu/Native-Apps?node-id=4237-42540&t=EdOkgvkkFEoP780Y-1",
+            "client": "https://www.figma.com/design/y150KEJI7hSn7KzRuG8uyu/Native-Apps?node-id=4237-42821&t=EdOkgvkkFEoP780Y-1"
         }
     }
 }

@@ -1,0 +1,34 @@
+{
+    "name": "Asset",
+    "confluence-page": "https://softwareone.atlassian.net/wiki/spaces/mpt/pages/6790545432/DG+Asset+Object",
+    "state-diagram": "https://www.figma.com/design/rHxTpbi2gpbZ4dmVlyeY2S/Object-Diagrams?node-id=222-316&t=Dj2O4JIV6NBUdifm-0",
+    "desktop": {
+        "grid-view": {
+            "vendor": "https://www.figma.com/design/sMYzX191RktVW9iseyttjO/Commerce?node-id=1-39231&t=g9PLFjCshXmZcUgo-0",
+            "operations": "https://www.figma.com/design/sMYzX191RktVW9iseyttjO/Commerce?node-id=1-37901&t=g9PLFjCshXmZcUgo-0",
+            "client": "https://www.figma.com/design/sMYzX191RktVW9iseyttjO/Commerce?node-id=1-39395&t=g9PLFjCshXmZcUgo-0"
+        },
+        "details-view": {
+            "vendor": "https://www.figma.com/design/sMYzX191RktVW9iseyttjO/Commerce?node-id=1-38931&t=g9PLFjCshXmZcUgo-0",
+            "operations": "https://www.figma.com/design/sMYzX191RktVW9iseyttjO/Commerce?node-id=1-37622&t=g9PLFjCshXmZcUgo-0",
+            "client": "https://www.figma.com/design/sMYzX191RktVW9iseyttjO/Commerce?node-id=1-38341&t=g9PLFjCshXmZcUgo-0"
+        },
+        "infocard-view": {
+            "vendor": "https://www.figma.com/design/dyiwmimDJgaav0uQW9eHgf/Marketplace-Platform?node-id=143792-114396&t=vDxgHfV33aVn9BBO-0",
+            "operations": "https://www.figma.com/design/dyiwmimDJgaav0uQW9eHgf/Marketplace-Platform?node-id=143792-114396&t=vDxgHfV33aVn9BBO-0",
+            "client": "https://www.figma.com/design/dyiwmimDJgaav0uQW9eHgf/Marketplace-Platform?node-id=143792-114396&t=vDxgHfV33aVn9BBO-0"
+        }
+    },
+    "mobile": {
+        "list-view": {
+            "vendor": null,
+            "operations": null,
+            "client": null
+        },
+        "details-view": {
+            "vendor": null,
+            "operations": null,
+            "client": null
+        }
+    }
+}

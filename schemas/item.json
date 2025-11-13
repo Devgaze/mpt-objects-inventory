@@ -1,0 +1,34 @@
+{
+    "name": "Item",
+    "confluence-page": "https://softwareone.atlassian.net/wiki/spaces/mpt/pages/6788809109/DG+Item+Object",
+    "state-diagram": "https://www.figma.com/design/rHxTpbi2gpbZ4dmVlyeY2S/Object-Diagrams?node-id=726-989&t=Dj2O4JIV6NBUdifm-0",
+    "desktop": {
+        "grid-view": {
+            "vendor": "",
+            "operations": "",
+            "client": ""
+        },
+        "details-view": {
+            "vendor": "",
+            "operations": "",
+            "client": ""
+        },
+        "infocard-view": {
+            "vendor": "https://www.figma.com/design/dyiwmimDJgaav0uQW9eHgf/Marketplace-Platform?node-id=143792-114394&t=vDxgHfV33aVn9BBO-0",
+            "operations": "https://www.figma.com/design/dyiwmimDJgaav0uQW9eHgf/Marketplace-Platform?node-id=143792-114394&t=vDxgHfV33aVn9BBO-0",
+            "client": "https://www.figma.com/design/dyiwmimDJgaav0uQW9eHgf/Marketplace-Platform?node-id=143792-114394&t=vDxgHfV33aVn9BBO-0"
+        }
+    },
+    "mobile": {
+        "list-view": {
+            "vendor": null,
+            "operations": null,
+            "client": null
+        },
+        "details-view": {
+            "vendor": null,
+            "operations": null,
+            "client": null
+        }
+    }
+}

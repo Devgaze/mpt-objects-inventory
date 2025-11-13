@@ -1,0 +1,34 @@
+{
+    "name": "Product Profile",
+    "confluence-page": "https://softwareone.atlassian.net/wiki/spaces/mpt/pages/6789660770/DG+Product+Profile+Object",
+    "state-diagram": "https://www.figma.com/design/rHxTpbi2gpbZ4dmVlyeY2S/Object-Diagrams?node-id=11492-338&t=Dj2O4JIV6NBUdifm-0",
+    "desktop": {
+        "grid-view": {
+            "vendor": "https://www.figma.com/design/dyiwmimDJgaav0uQW9eHgf/Marketplace-Platform?node-id=118039-29236&t=0U7kJQ4ItRWmB2un-0",
+            "operations": "https://www.figma.com/design/dyiwmimDJgaav0uQW9eHgf/Marketplace-Platform?node-id=100383-126089&t=0U7kJQ4ItRWmB2un-0",
+            "client": "https://www.figma.com/design/dyiwmimDJgaav0uQW9eHgf/Marketplace-Platform?node-id=118714-36161&t=0U7kJQ4ItRWmB2un-0"
+        },
+        "details-view": {
+            "vendor": "https://www.figma.com/design/dyiwmimDJgaav0uQW9eHgf/Marketplace-Platform?node-id=118039-30392&t=0U7kJQ4ItRWmB2un-0",
+            "operations": "https://www.figma.com/design/dyiwmimDJgaav0uQW9eHgf/Marketplace-Platform?node-id=118555-27690&t=0U7kJQ4ItRWmB2un-0",
+            "client": "https://www.figma.com/design/dyiwmimDJgaav0uQW9eHgf/Marketplace-Platform?node-id=120363-176471&t=0U7kJQ4ItRWmB2un-0"
+        },
+        "infocard-view": {
+            "vendor": "",
+            "operations": "",
+            "client": ""
+        }
+    },
+    "mobile": {
+        "list-view": {
+            "vendor": null,
+            "operations": null,
+            "client": null
+        },
+        "details-view": {
+            "vendor": null,
+            "operations": null,
+            "client": null
+        }
+    }
+}

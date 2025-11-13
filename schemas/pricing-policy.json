@@ -1,0 +1,30 @@
+{
+    "name": "Pricing Policy",
+    "confluence-page": "https://softwareone.atlassian.net/wiki/spaces/mpt/pages/6788808869/DG+Pricing+Policy+Object",
+    "state-diagram": "https://www.figma.com/design/rHxTpbi2gpbZ4dmVlyeY2S/Object-Diagrams?node-id=14831-360&t=YYPWSW1Yes1JNA1l-0",
+    "desktop": {
+        "grid-view": {
+            "operations": "https://www.figma.com/design/sMYzX191RktVW9iseyttjO/Commerce?node-id=16-411092&t=g9PLFjCshXmZcUgo-0"
+        },
+        "details-view": {
+            "operations": "https://www.figma.com/design/sMYzX191RktVW9iseyttjO/Commerce?node-id=16-411221&t=g9PLFjCshXmZcUgo-0"
+        },
+        "infocard-view": {
+            "vendor": "https://www.figma.com/design/dyiwmimDJgaav0uQW9eHgf/Marketplace-Platform?node-id=143792-114394&t=vDxgHfV33aVn9BBO-0",
+            "operations": "https://www.figma.com/design/dyiwmimDJgaav0uQW9eHgf/Marketplace-Platform?node-id=143792-114394&t=vDxgHfV33aVn9BBO-0",
+            "client": "https://www.figma.com/design/dyiwmimDJgaav0uQW9eHgf/Marketplace-Platform?node-id=143792-114394&t=vDxgHfV33aVn9BBO-0"
+        }
+    },
+    "mobile": {
+        "list-view": {
+            "vendor": null,
+            "operations": null,
+            "client": null
+        },
+        "details-view": {
+            "vendor": null,
+            "operations": null,
+            "client": null
+        }
+    }
+}
