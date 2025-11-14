@@ -1,7 +1,7 @@
 {
   "name": "Helpdesk case",
   "confluence-page": "https://softwareone.atlassian.net/wiki/spaces/mpt/pages/6678315398/Cases",
-  "state-diagram": "https://www.figma.com/file/rHxTpbi2gpbZ4dmVlyeY2S?type=design&node-id=4554%3A429",
+  "state-diagram": "https://www.figma.com/design/rHxTpbi2gpbZ4dmVlyeY2S/Object-Diagrams?node-id=5150-637&t=8iojvCy4Lj5VoGrA-0",
   "desktop": {
     "grid-view": {
       "vendor": "https://www.figma.com/design/sMYzX191RktVW9iseyttjO/Commerce?node-id=16-260294&t=o2YvyPpeaSaSSci8-0",
