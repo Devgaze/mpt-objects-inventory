@@ -1,0 +1,34 @@
+{
+    "name": "Message",
+    "confluence-page": "https://softwareone.atlassian.net/wiki/spaces/mpt/pages/6786155902/DG+Message+object",
+    "state-diagram": "https://www.figma.com/design/rHxTpbi2gpbZ4dmVlyeY2S/Object-Diagrams?node-id=386-1043&p=f&t=SWkBmt9HWpqd3qSY-0",
+    "desktop": {
+        "grid-view": {
+            "vendor": "https://www.figma.com/design/lhJsW4s8riyfaeCaYaucvW/Notifications?node-id=694-98189&t=XURZogpBEWlTkA4x-0",
+            "operations": "https://www.figma.com/design/lhJsW4s8riyfaeCaYaucvW/Notifications?node-id=694-93638&t=XURZogpBEWlTkA4x-0",
+            "client": "https://www.figma.com/design/lhJsW4s8riyfaeCaYaucvW/Notifications?node-id=694-97939&t=XURZogpBEWlTkA4x-0"
+        },
+        "details-view": {
+            "vendor": null,
+            "operations": null,
+            "client": null
+        },
+        "infocard-view": {
+            "vendor": null,
+            "operations": null,
+            "client": null
+        }
+    },
+    "mobile": {
+        "list-view": {
+            "vendor": null,
+            "operations": null,
+            "client": null
+        },
+        "details-view": {
+            "vendor": null,
+            "operations": null,
+            "client": null
+        }
+    }
+}
