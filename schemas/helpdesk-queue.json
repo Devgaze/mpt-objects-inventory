@@ -1,0 +1,34 @@
+{
+  "name": "Helpdesk queue",
+  "confluence-page": "https://softwareone.atlassian.net/wiki/spaces/mpt/pages/6635782192/Queues",
+  "state-diagram": "https://www.figma.com/design/rHxTpbi2gpbZ4dmVlyeY2S/Object-Diagrams?node-id=10545-129&t=6vehyyeYQiThCf6E-1",
+  "desktop": {
+    "grid-view": {
+      "vendor": null,
+      "operations": "https://www.figma.com/design/dyiwmimDJgaav0uQW9eHgf/Marketplace-Platform?node-id=118256-52827&t=JbEJAGdDMV5gjrcV-1",
+      "client": null
+    },
+    "details-view": {
+      "vendor": null,
+      "operations": "https://www.figma.com/design/dyiwmimDJgaav0uQW9eHgf/Marketplace-Platform?node-id=118256-52886&t=JbEJAGdDMV5gjrcV-1",
+      "client": null
+    },
+    "infocard-view": {
+      "vendor": null,
+      "operations": "https://www.figma.com/design/dyiwmimDJgaav0uQW9eHgf/Marketplace-Platform?node-id=143792-114397&t=JbEJAGdDMV5gjrcV-1",
+      "client": null
+    }
+  },
+  "mobile": {
+    "list-view": {
+      "vendor": null,
+      "operations": null,
+      "client": null
+    },
+    "details-view": {
+      "vendor": null,
+      "operations": null,
+      "client": null
+    }
+  }
+}
