@@ -162,6 +162,29 @@ def update_confluence_page(object_schema):
         }
     )
 
+    if object_schema.desktop_settings_vendor.figma_link is not None \
+        or object_schema.desktop_settings_operations.figma_link is not None \
+        or object_schema.desktop_settings_client.figma_link is not None:
+
+        desktop_settings_table_section = populate_template(
+            roles_table_template,
+            {
+                '{{highlight-colour-column-1}}': LIGHT_BLUE,
+                '{{highlight-colour-column-2}}': LIGHT_RED,
+                '{{highlight-colour-column-3}}': LIGHT_GREEN,
+                '{{filename-column-1}}': os.path.basename(object_schema.desktop_settings_vendor.filename),
+                '{{filename-column-2}}': os.path.basename(object_schema.desktop_settings_operations.filename),
+                '{{filename-column-3}}': os.path.basename(object_schema.desktop_settings_client.filename),
+                '{{figma-link-column-1}}': object_schema.desktop_settings_vendor.figma_link,
+                '{{figma-link-column-2}}': object_schema.desktop_settings_operations.figma_link,
+                '{{figma-link-column-3}}': object_schema.desktop_settings_client.figma_link,
+            }
+        )
+
+    else:
+
+        desktop_settings_table_section = '<p>No settings views specified</p>'
+
     mobile_list_view_table_section = populate_template(
         roles_table_template,
         {
@@ -200,6 +223,7 @@ def update_confluence_page(object_schema):
             '{{desktop-infocard-table-section}}': desktop_infocard_view_table_section,
             '{{mobile-list-table-section}}': mobile_list_view_table_section,
             '{{mobile-details-table-section}}': mobile_details_view_table_section,
+            '{{desktop-settings-table-section}}': desktop_settings_table_section,
         }
     )
 
@@ -296,6 +320,10 @@ def main():
     os.makedirs(cfg.TEMP_RENDER_FOLDER, exist_ok=True)
 
     all_schema_files = sorted(glob.glob('./schemas/*.json'), key=lambda x: x.lower())
+
+    # Debug: Limit to only specific schema files
+    # all_schema_files = [f for f in all_schema_files if 'account' in os.path.basename(f).lower()]
+
     print(f"Found {len(all_schema_files)} schema files")
     index = 1
     for schema_file in all_schema_files:

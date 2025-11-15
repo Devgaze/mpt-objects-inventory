@@ -125,6 +125,10 @@ class ObjectSchema:
         self.desktop_infocard_view_operations = self._create_schema_value('desktop.infocard-view.operations')
         self.desktop_infocard_view_client = self._create_schema_value('desktop.infocard-view.client')
 
+        self.desktop_settings_vendor = self._create_schema_value('desktop.settings.vendor')
+        self.desktop_settings_operations = self._create_schema_value('desktop.settings.operations')
+        self.desktop_settings_client = self._create_schema_value('desktop.settings.client')
+
         self.mobile_list_view_vendor = self._create_schema_value('mobile.list-view.vendor')
         self.mobile_list_view_operations = self._create_schema_value('mobile.list-view.operations')
         self.mobile_list_view_client = self._create_schema_value('mobile.list-view.client')
