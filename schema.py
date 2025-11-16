@@ -115,7 +115,11 @@ class ObjectSchema:
                 last_key = None
                 break
 
+        if last_value is None:
+            return []
+
         schema_records = []
+
         for key, value in last_value.items():
             element_name = key.lower().strip().replace(' ', '-')
             full_key = f'{unique_key}.{element_name}'
