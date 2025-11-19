@@ -10,9 +10,6 @@ cfg = Config()
 figma = Figma()
 
 
-SKIP_ACTUAL_RENDERING_FOR_DEBUG = False
-
-
 class SchemaRecord:
 
     SCHEMA_RECORD_STATUS_RENDERED = 'rendered'
@@ -42,7 +39,7 @@ class SchemaRecord:
         try:
             self.filename = self.unique_key.replace('.', '-') + '.png'
             self.filename = os.path.join(output_folder, self.filename)
-            if SKIP_ACTUAL_RENDERING_FOR_DEBUG:
+            if cfg.SKIP_ACTUAL_RENDERING_FOR_DEBUG:
                 if not os.path.exists(self.filename):
                     self.filename = self.parent.no_content_image
                     self.status = self.SCHEMA_RECORD_STATUS_NOT_FOUND
@@ -135,8 +132,8 @@ class ObjectSchema:
 
     def __init__(self, schema_file):
 
-        self.page_not_found_image = './media/page-not-found.png'
-        self.no_content_image = './media/no-content.png'
+        self.page_not_found_image = os.path.join(os.path.dirname(__file__), 'media', 'page-not-found.png')
+        self.no_content_image = os.path.join(os.path.dirname(__file__), 'media', 'no-content.png')
 
         with open(schema_file, 'r', encoding='utf-8') as f:
             self._object_schema = json.load(f)
