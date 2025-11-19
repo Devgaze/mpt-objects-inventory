@@ -19,6 +19,20 @@
             "client": "https://www.figma.com/proto/dyiwmimDJgaav0uQW9eHgf/Marketplace-Platform?page-id=58142%3A96478&node-id=58554-116157&viewport=-3144%2C1442%2C0.52&t=A6BpEp4w4g2CI0Wo-1&scaling=min-zoom&content-scaling=fixed"
         }
     },
+    "email-notifications": {
+        "vendor": {
+        },
+        "operations": {
+        },
+        "client": {
+            "User: Invitation: User invitation": "https://www.figma.com/design/lhJsW4s8riyfaeCaYaucvW/Notifications?node-id=1-22151&t=bS9b0Enx2Fzwh7L0-11",
+            "User: Invitation: User invitation shortcut": "https://www.figma.com/design/lhJsW4s8riyfaeCaYaucvW/Notifications?node-id=1-22152&t=bS9b0Enx2Fzwh7L0-11",
+            "User: User added to account": "https://www.figma.com/design/lhJsW4s8riyfaeCaYaucvW/Notifications?node-id=193-10742&t=bS9b0Enx2Fzwh7L0-11",
+            "User: User removed from account": "https://www.figma.com/design/lhJsW4s8riyfaeCaYaucvW/Notifications?node-id=1-22153&t=bS9b0Enx2Fzwh7L0-11",
+            "User: Password reset request": "https://www.figma.com/design/lhJsW4s8riyfaeCaYaucvW/Notifications?node-id=1-26036&t=bS9b0Enx2Fzwh7L0-11",
+            "User: Password has been reset": "https://www.figma.com/design/lhJsW4s8riyfaeCaYaucvW/Notifications?node-id=191-7475&t=bS9b0Enx2Fzwh7L0-11"
+        }
+    },
     "mobile": {
         "list-view": {
             "vendor": null,
