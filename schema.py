@@ -65,6 +65,18 @@ class SchemaRecord:
         return self.filename
 
 
+    def copy(self):
+        new_record = SchemaRecord(
+            self.parent,
+            self.figma_link,
+            self.unique_key,
+            self.title
+        )
+        new_record.filename = self.filename
+        new_record.status = self.status
+        return new_record
+
+
 class ObjectSchema:
 
     def _create_schema_value(self, unique_key):

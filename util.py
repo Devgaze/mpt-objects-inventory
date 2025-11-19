@@ -11,7 +11,11 @@ def populate_multitable_template(multitable_template, multitable_row_template, s
 
     def get_header_value(schema_record):
         if schema_record:
-            return f'<td data-highlight-colour="#f4f5f7"><p style="text-align: center;"><a href="{schema_record.figma_link}"><strong>{schema_record.title}</strong></a></p></td>'
+            _title = schema_record.title
+            if _title is None:
+                _title = schema_record.parent.object_name
+
+            return f'<td data-highlight-colour="#f4f5f7"><p style="text-align: center;"><a href="{schema_record.figma_link}"><strong>{_title}</strong></a></p></td>'
         return '<td data-highlight-colour="#f4f5f7"></td>'
 
     def get_cell_value(schema_record):

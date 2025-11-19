@@ -14,12 +14,13 @@ confluence = Confluence()
 
 def update_object_confluence_page(object_schema):
 
+    confluence_page_url = object_schema.confluence_page_url
+
     if cfg.SKIP_UPDATE_CONFLUENCE_PAGE_FOR_DEBUG:
         print(f"  DEBUG: Skipping update of Confluence page for the object: {object_schema.object_name}")
         object_schema.confluence_page_title = confluence.get_confluence_page_title(confluence_page_url)
         return
 
-    confluence_page_url = object_schema.confluence_page_url
     page_id = confluence.get_confluence_page_id_from_url(confluence_page_url)
     object_name = object_schema.object_name
 

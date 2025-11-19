@@ -15,6 +15,7 @@ from confluence import Confluence
 from schema import ObjectSchema, SchemaRecord
 from renderers.object import update_object_confluence_page
 from renderers.summary import write_summary_page
+from renderers.overview import write_overview_pages
 
 cfg = Config()
 confluence = Confluence()
@@ -158,6 +159,14 @@ def main():
 
     write_summary_page(object_schemas)
 
+    # Step 7: Write overview pages
+
+    print()
+    print('=' * 120)
+    print('Phase 7: Write overview pages')
+    print('=' * 120)
+
+    write_overview_pages(object_schemas)
 
 if __name__ == '__main__':
     main()
