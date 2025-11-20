@@ -3,11 +3,37 @@
 from config import Config
 import requests
 import re
+from urllib.parse import urlparse, parse_qs, urlencode, urlunparse
 
 cfg = Config()
 
 
 class Figma:
+
+    def _sanitize_figma_url(self, figma_url):
+        """Remove the t= parameter from Figma URL if it exists"""
+        parsed = urlparse(figma_url)
+        
+        # Parse query parameters
+        query_params = parse_qs(parsed.query, keep_blank_values=True)
+        
+        # Remove the 't' parameter if it exists
+        if 't' in query_params:
+            del query_params['t']
+        
+        # Reconstruct query string (parse_qs returns lists, so we need to flatten)
+        new_query = urlencode(query_params, doseq=True)
+        
+        # Reconstruct the URL
+        return urlunparse((
+            parsed.scheme,
+            parsed.netloc,
+            parsed.path,
+            parsed.params,
+            new_query,
+            parsed.fragment
+        ))
+
 
     def _get_frame_id_from_url(self, figma_url):
 
@@ -18,6 +44,9 @@ class Figma:
 
 
     def render_figma_png(self, figma_url, out_filename):
+
+        # Sanitize URL to remove t= parameter
+        figma_url = self._sanitize_figma_url(figma_url)
 
         # print(f"Rendering Figma PNG to file: {out_filename}...")
 
