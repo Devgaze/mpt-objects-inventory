@@ -1,32 +1,61 @@
-# Platform Objects Inventory Automation
+# SoftwareOne Marketplace — Objects Inventory
 
-This project is used to maintain the repository of platform objects in an automated way. It provides scripts and resources to fetch, update, and synchronize platform object definitions, diagrams, and documentation with external systems like Figma and your documentation platform.
+This tool generates and maintains the visual inventory of platform objects for the SoftwareOne Marketplace Platform. It renders object views from Figma, uploads images to Confluence, and updates object pages and a summary page automatically.
 
-## Features
+- Object definitions live in `schemas/*.json`
+- Images and HTML previews are written to `build/`
+- Confluence pages are updated in place
 
-- Automatically extracts and processes platform object schemas.
-- Downloads and updates relevant Figma diagrams for each object.
-- Syncs documentation and diagrams directly to your documentation pages.
-- Ensures the inventory stays up-to-date with minimal manual intervention.
+## What it does
 
-## Usage
+- Renders PNGs from Figma for each object view (desktop, mobile, infocards, settings) and the state diagram.
+- Uploads or replaces the images as attachments on each object’s Confluence page.
+- Regenerates each object page body using HTML templates.
+- Regenerates the global summary page with per-object status and links.
 
-To set up and use the automation:
+## Install and run
 
-1. **Install dependencies and run:**
-   ```bash
-   ./run.sh
-   ```
+Fast path:
 
-2. **Schemas:**  
-   Place all your platform object schema files in the `./schemas/` directory.
+```bash
+./run.sh
+```
 
-3. **Documentation and Figma Integration:**  
-   The scripts are configured to read API keys and endpoints from the configuration file (see `cfg` references in source). Make sure your environment is set up with the correct API credentials.
+On each run you will see six phases:
 
-## Notes
+1) Initialize schemas 
+2) Render Figma images
+3) Remove existing page attachments
+4) Upload images
+5) Update object pages
+6) Update summary page
 
-- Diagrams and files are rendered and temporarily stored before being pushed to the documentation platform.
-- The update process can be customized by editing the schema files or the project scripts.
+## Schemas
 
-For details on adding new objects or troubleshooting, see comments in `build-objects-inventory.py`.
+Place object schema files in `./schemas/` (one per object). Minimal required fields:
+
+- Empty strings are treated as “not defined”.
+- Each non-empty value must be a Figma URL containing `file/proto/design/<fileKey>` and `node-id=`; the renderer extracts both to request PNGs from Figma.
+
+## Output
+
+- `build/<Object Name>/...png` — all rendered images
+- `build/<Object Name>/object-page.html` — the HTML used to update the object’s Confluence page
+- `build/summary-page.html` — the HTML used to update the global summary page
+
+If the new HTML matches the current Confluence content (normalized), the update is skipped.
+
+## Confluence and templates
+
+HTML bodies are generated from templates in `confluence-templates/`:
+
+- `object-page.html` — full object page layout
+- `roles-table.html`, `single-table.html` — reusable table fragments for roles (vendor, operations, client)
+- `multitable.html`, `multitable-row.html` — generic multi-row table
+- `summary-page.html`, `summary-table-row.html` — global summary page
+
+Attachments are fully replaced on each run to ensure a consistent, up-to-date page. Pages are forced to “full width.”
+
+## Context
+
+The Marketplace Platform is API-first and serves three account types: Vendors, Operations, and Clients. For broader platform terms and APIs, see the public docs at `https://docs.platform.softwareone.com`.

@@ -3,29 +3,29 @@
     "confluence-page": "https://softwareone.atlassian.net/wiki/spaces/mpt/pages/6789267667/DG+Authorization+Object",
     "state-diagram": "https://www.figma.com/design/rHxTpbi2gpbZ4dmVlyeY2S/Object-Diagrams?node-id=1712-640&t=E0JPa4lSDQM4HXKf-0",
     "desktop": {
-        "grid-view": {
-            "vendor": "",
-            "operations": "",
-            "client": ""
+        "grid": {
+            "vendor": null,
+            "operations": null,
+            "client": null
         },
-        "details-view": {
-            "vendor": "",
-            "operations": "",
-            "client": ""
+        "details": {
+            "vendor": null,
+            "operations": null,
+            "client": null
         },
-        "infocard-view": {
+        "infocard": {
             "vendor": "https://www.figma.com/design/dyiwmimDJgaav0uQW9eHgf/Marketplace-Platform?node-id=143792-114394&t=vDxgHfV33aVn9BBO-0",
             "operations": "https://www.figma.com/design/dyiwmimDJgaav0uQW9eHgf/Marketplace-Platform?node-id=143792-114394&t=vDxgHfV33aVn9BBO-0",
             "client": "https://www.figma.com/design/dyiwmimDJgaav0uQW9eHgf/Marketplace-Platform?node-id=143792-114394&t=vDxgHfV33aVn9BBO-0"
         }
     },
     "mobile": {
-        "list-view": {
+        "list": {
             "vendor": null,
             "operations": null,
             "client": null
         },
-        "details-view": {
+        "details": {
             "vendor": null,
             "operations": null,
             "client": null

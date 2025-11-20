@@ -3,31 +3,46 @@
     "confluence-page": "https://softwareone.atlassian.net/wiki/spaces/mpt/pages/6735691787/DG+Order+Object",
     "state-diagram": "https://www.figma.com/design/rHxTpbi2gpbZ4dmVlyeY2S/Object-Diagrams?node-id=6-364&t=L4IznjT8n7VAlv8s-0",
     "desktop": {
-        "grid-view": {
-            "vendor": "https://www.figma.com/proto/dyiwmimDJgaav0uQW9eHgf/Marketplace-Platform?node-id=34235-251503&p=f&t=FDp99LyYm39lehxp-1&scaling=scale-down&content-scaling=fixed&page-id=1271%3A40663&starting-point-node-id=34235%3A251503",
-            "operations": "https://www.figma.com/proto/dyiwmimDJgaav0uQW9eHgf/Marketplace-Platform?node-id=67060-1121044&p=f&t=FDp99LyYm39lehxp-1&scaling=scale-down&content-scaling=fixed&page-id=1271%3A40663&starting-point-node-id=67060%3A1121044&show-proto-sidebar=1",
-            "client": "https://www.figma.com/proto/dyiwmimDJgaav0uQW9eHgf/Marketplace-Platform?node-id=34235-259718&p=f&t=FDp99LyYm39lehxp-1&scaling=scale-down&content-scaling=fixed&page-id=1271%3A40663&starting-point-node-id=34235%3A259718&show-proto-sidebar=1"
+        "grid": {
+            "vendor": "https://www.figma.com/design/sMYzX191RktVW9iseyttjO/Commerce?node-id=16-260294&t=o2YvyPpeaSaSSci8-0",
+            "operations": "https://www.figma.com/design/sMYzX191RktVW9iseyttjO/Commerce?node-id=16-259350&t=o2YvyPpeaSaSSci8-0",
+            "client": "https://www.figma.com/design/sMYzX191RktVW9iseyttjO/Commerce?node-id=16-254650&t=o2YvyPpeaSaSSci8-0"
         },
-        "details-view": {
-            "vendor": "https://www.figma.com/design/dyiwmimDJgaav0uQW9eHgf/Marketplace-Platform?node-id=20893-68134&t=sIjDicft2wEMevEO-1",
-            "operations": "https://www.figma.com/design/dyiwmimDJgaav0uQW9eHgf/Marketplace-Platform?node-id=14346-524565&t=sIjDicft2wEMevEO-1",
-            "client": "https://www.figma.com/design/dyiwmimDJgaav0uQW9eHgf/Marketplace-Platform?node-id=9731-488452&t=sIjDicft2wEMevEO-1"
+        "details": {
+            "vendor": "https://www.figma.com/design/sMYzX191RktVW9iseyttjO/Commerce?node-id=16-260628&t=o2YvyPpeaSaSSci8-0",
+            "operations": "https://www.figma.com/design/sMYzX191RktVW9iseyttjO/Commerce?node-id=16-257843&t=o2YvyPpeaSaSSci8-0",
+            "client": "https://www.figma.com/design/sMYzX191RktVW9iseyttjO/Commerce?node-id=16-255915&t=o2YvyPpeaSaSSci8-0"
         },
-        "infocard-view": {
+        "infocard": {
             "vendor": "https://www.figma.com/proto/dyiwmimDJgaav0uQW9eHgf/Marketplace-Platform?node-id=58554-115615&t=sIjDicft2wEMevEO-1",
             "operations": "https://www.figma.com/proto/dyiwmimDJgaav0uQW9eHgf/Marketplace-Platform?node-id=58554-115615&t=sIjDicft2wEMevEO-1",
             "client": "https://www.figma.com/proto/dyiwmimDJgaav0uQW9eHgf/Marketplace-Platform?node-id=58554-115615&t=sIjDicft2wEMevEO-1"
         }
     },
+    "email-notifications": {
+        "vendor": {
+            "Order Placed": "https://www.figma.com/design/lhJsW4s8riyfaeCaYaucvW/Notifications?node-id=29-6034&t=rZGtz81RpbZE6P9m-0",
+            "Order Processing": "https://www.figma.com/design/lhJsW4s8riyfaeCaYaucvW/Notifications?node-id=365-4311&t=rZGtz81RpbZE6P9m-0"
+        },
+        "operations": {
+        },
+        "client": {
+            "Order Placed": "https://www.figma.com/design/lhJsW4s8riyfaeCaYaucvW/Notifications?node-id=602-18951&t=rZGtz81RpbZE6P9m-0",
+            "Order Updated": "https://www.figma.com/design/lhJsW4s8riyfaeCaYaucvW/Notifications?node-id=1-27453&t=rZGtz81RpbZE6P9m-0",
+            "Order Querying": "https://www.figma.com/design/lhJsW4s8riyfaeCaYaucvW/Notifications?node-id=1-27845&t=rZGtz81RpbZE6P9m-0",
+            "Order Completed": "https://www.figma.com/design/lhJsW4s8riyfaeCaYaucvW/Notifications?node-id=28-6196&t=rZGtz81RpbZE6P9m-0",
+            "Order Failed": "https://www.figma.com/design/lhJsW4s8riyfaeCaYaucvW/Notifications?node-id=29-5904&t=rZGtz81RpbZE6P9m-0"
+        }
+    },
     "mobile": {
-        "list-view": {
+        "list": {
             "vendor": "https://www.figma.com/design/y150KEJI7hSn7KzRuG8uyu/Native-Apps?node-id=4295-44757&t=EdOkgvkkFEoP780Y-1",
             "operations": "https://www.figma.com/design/y150KEJI7hSn7KzRuG8uyu/Native-Apps?node-id=4295-44198&t=EdOkgvkkFEoP780Y-1",
             "client": "https://www.figma.com/design/y150KEJI7hSn7KzRuG8uyu/Native-Apps?node-id=4295-44470&t=EdOkgvkkFEoP780Y-1"
         },
-        "details-view": {
+        "details": {
             "vendor": "https://www.figma.com/design/y150KEJI7hSn7KzRuG8uyu/Native-Apps?node-id=4237-43073&t=EdOkgvkkFEoP780Y-1",
-            "operations": "https://www.figma.com/design/y150KEJI7hSn7KzRuG8uyu/Native-Apps?node-id=4237-42540&t=EdOkgvkkFEoP780Y-1",
+            "operations": "https://www.figma.com/design/y150KEJI7hSn7KzRuG8uyu/Native-Apps?node-id=4354-83050&t=JxpAPofAU4mgJccP-0",
             "client": "https://www.figma.com/design/y150KEJI7hSn7KzRuG8uyu/Native-Apps?node-id=4237-42821&t=EdOkgvkkFEoP780Y-1"
         }
     }

@@ -1,6 +1,7 @@
 #!/bin/bash
 
+rm -rf ./build
 python3 -m venv venv
 source venv/bin/activate
 pip install -r requirements.txt
-python ./build-objects-inventory.py
+python ./main.py

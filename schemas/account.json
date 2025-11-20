@@ -1,0 +1,39 @@
+{
+    "name": "Account",
+    "confluence-page": "https://softwareone.atlassian.net/wiki/spaces/mpt/pages/6785631018/DG+Account+object",
+    "state-diagram": "https://www.figma.com/design/rHxTpbi2gpbZ4dmVlyeY2S/Object-Diagrams?node-id=789-249&t=WUVCiGBATPWqSdCC-1",
+    "desktop": {
+        "grid": {
+            "vendor": "https://www.figma.com/design/dyiwmimDJgaav0uQW9eHgf/Marketplace-Platform?node-id=50021-74105&t=q5lIFDKPHMY9pgkB-1",
+            "operations": null,
+            "client": "https://www.figma.com/design/dyiwmimDJgaav0uQW9eHgf/Marketplace-Platform?node-id=33057-127667&t=q5lIFDKPHMY9pgkB-1"
+        },
+        "details": {
+            "vendor": "https://www.figma.com/design/dyiwmimDJgaav0uQW9eHgf/Marketplace-Platform?node-id=50021-75757&t=q5lIFDKPHMY9pgkB-1",
+            "operations": null,
+            "client": "https://www.figma.com/design/dyiwmimDJgaav0uQW9eHgf/Marketplace-Platform?node-id=33057-127460&t=q5lIFDKPHMY9pgkB-1"
+        },
+        "settings": {
+            "vendor": "https://www.figma.com/design/dyiwmimDJgaav0uQW9eHgf/Marketplace-Platform?node-id=39327-45177&t=q5lIFDKPHMY9pgkB-1",
+            "operations": "https://www.figma.com/design/dyiwmimDJgaav0uQW9eHgf/Marketplace-Platform?node-id=33057-125922&t=q5lIFDKPHMY9pgkB-1",
+            "client": "https://www.figma.com/design/dyiwmimDJgaav0uQW9eHgf/Marketplace-Platform?node-id=33057-125625&t=q5lIFDKPHMY9pgkB-1"
+        },
+        "infocard": {
+            "vendor": "https://www.figma.com/design/dyiwmimDJgaav0uQW9eHgf/Marketplace-Platform?node-id=61328-93428&t=q5lIFDKPHMY9pgkB-1",
+            "operations": "https://www.figma.com/design/dyiwmimDJgaav0uQW9eHgf/Marketplace-Platform?node-id=143569-114806&t=q5lIFDKPHMY9pgkB-1",
+            "client": "https://www.figma.com/design/dyiwmimDJgaav0uQW9eHgf/Marketplace-Platform?node-id=58532-105279&t=q5lIFDKPHMY9pgkB-1"
+        }
+    },
+    "mobile": {
+        "list": {
+            "vendor": null,
+            "operations": null,
+            "client": null
+        },
+        "details": {
+            "vendor": null,
+            "operations": null,
+            "client": null
+        }
+    }
+}

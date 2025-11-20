@@ -1,0 +1,34 @@
+{
+    "name": "Cloud Tenant",
+    "confluence-page": "https://softwareone.atlassian.net/wiki/spaces/mpt/pages/6785631481/DG+Cloud+tenant+object",
+    "state-diagram": "https://www.figma.com/design/rHxTpbi2gpbZ4dmVlyeY2S/Object-Diagrams?node-id=846-383&t=4LfG65fU7z0tTeAP-11",
+    "desktop": {
+        "grid": {
+            "vendor": null,
+            "operations": "https://www.figma.com/design/dyiwmimDJgaav0uQW9eHgf/Marketplace-Platform?node-id=75103-114605&t=lIEEKbBKcu7MqdU0-11",
+            "client": null
+        },
+        "details": {
+            "vendor": null,
+            "operations": "https://www.figma.com/design/dyiwmimDJgaav0uQW9eHgf/Marketplace-Platform?node-id=75366-112614&t=lIEEKbBKcu7MqdU0-11",
+            "client": null
+        },
+        "infocard": {
+            "vendor": null,
+            "operations": null,
+            "client": null
+        }
+    },
+    "mobile": {
+        "list": {
+            "vendor": null,
+            "operations": null,
+            "client": null
+        },
+        "details": {
+            "vendor": null,
+            "operations": null,
+            "client": null
+        }
+    }
+}

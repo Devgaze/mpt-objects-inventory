@@ -1,0 +1,34 @@
+{
+    "name": "API Token",
+    "confluence-page": "https://softwareone.atlassian.net/wiki/spaces/mpt/pages/6786221164/DG+API+token+object",
+    "state-diagram": "https://www.figma.com/design/rHxTpbi2gpbZ4dmVlyeY2S/Object-Diagrams?node-id=1024-438&t=WUVCiGBATPWqSdCC-1",
+    "desktop": {
+        "grid": {
+            "vendor": "https://www.figma.com/design/dyiwmimDJgaav0uQW9eHgf/Marketplace-Platform?node-id=41809-55132&t=q5lIFDKPHMY9pgkB-1",
+            "operations": "https://www.figma.com/design/dyiwmimDJgaav0uQW9eHgf/Marketplace-Platform?node-id=34044-282786&t=q5lIFDKPHMY9pgkB-1",
+            "client": "https://www.figma.com/design/dyiwmimDJgaav0uQW9eHgf/Marketplace-Platform?node-id=33057-124633&t=q5lIFDKPHMY9pgkB-1"
+        },
+        "details": {
+            "vendor": "https://www.figma.com/design/dyiwmimDJgaav0uQW9eHgf/Marketplace-Platform?node-id=41809-55115&t=q5lIFDKPHMY9pgkB-1",
+            "operations": "https://www.figma.com/design/dyiwmimDJgaav0uQW9eHgf/Marketplace-Platform?node-id=34772-41717&t=q5lIFDKPHMY9pgkB-1",
+            "client": "https://www.figma.com/design/dyiwmimDJgaav0uQW9eHgf/Marketplace-Platform?node-id=33057-124628&t=q5lIFDKPHMY9pgkB-1"
+        },
+        "infocard": {
+            "vendor": "https://www.figma.com/design/dyiwmimDJgaav0uQW9eHgf/Marketplace-Platform?node-id=143569-114700&t=q5lIFDKPHMY9pgkB-1",
+            "operations": "https://www.figma.com/design/dyiwmimDJgaav0uQW9eHgf/Marketplace-Platform?node-id=143569-114700&t=q5lIFDKPHMY9pgkB-1",
+            "client": "https://www.figma.com/design/dyiwmimDJgaav0uQW9eHgf/Marketplace-Platform?node-id=143569-114700&t=q5lIFDKPHMY9pgkB-1"
+        }
+    },
+    "mobile": {
+        "list": {
+            "vendor": null,
+            "operations": null,
+            "client": null
+        },
+        "details": {
+            "vendor": null,
+            "operations": null,
+            "client": null
+        }
+    }
+}

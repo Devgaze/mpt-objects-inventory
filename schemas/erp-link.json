@@ -1,0 +1,34 @@
+{
+    "name": "ERP Link",
+    "confluence-page": "https://softwareone.atlassian.net/wiki/spaces/mpt/pages/6786286390/DG+ERP+link+object",
+    "state-diagram": "https://www.figma.com/design/rHxTpbi2gpbZ4dmVlyeY2S/Object-Diagrams?node-id=908-570&t=4LfG65fU7z0tTeAP-11",
+    "desktop": {
+        "grid": {
+            "vendor": null,
+            "operations": "https://www.figma.com/design/dyiwmimDJgaav0uQW9eHgf/Marketplace-Platform?node-id=81944-160488&t=lIEEKbBKcu7MqdU0-11",
+            "client": "https://www.figma.com/design/dyiwmimDJgaav0uQW9eHgf/Marketplace-Platform?node-id=143727-110627&t=lIEEKbBKcu7MqdU0-11"
+        },
+        "details": {
+            "vendor": null,
+            "operations": "https://www.figma.com/design/dyiwmimDJgaav0uQW9eHgf/Marketplace-Platform?node-id=82930-116267&t=lIEEKbBKcu7MqdU0-11",
+            "client": null
+        },
+        "infocard": {
+            "vendor": "https://www.figma.com/design/dyiwmimDJgaav0uQW9eHgf/Marketplace-Platform?node-id=99926-124400&t=lIEEKbBKcu7MqdU0-11",
+            "operations": "https://www.figma.com/design/dyiwmimDJgaav0uQW9eHgf/Marketplace-Platform?node-id=99926-124400&t=lIEEKbBKcu7MqdU0-11",
+            "client": "https://www.figma.com/design/dyiwmimDJgaav0uQW9eHgf/Marketplace-Platform?node-id=99926-124400&t=lIEEKbBKcu7MqdU0-11"
+        }
+    },
+    "mobile": {
+        "list": {
+            "vendor": null,
+            "operations": null,
+            "client": null
+        },
+        "details": {
+            "vendor": null,
+            "operations": null,
+            "client": null
+        }
+    }
+}

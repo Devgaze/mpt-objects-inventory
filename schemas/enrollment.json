@@ -8,24 +8,24 @@
             "operations": "https://www.figma.com/design/dyiwmimDJgaav0uQW9eHgf/Marketplace-Platform?node-id=57191-321965&t=0U7kJQ4ItRWmB2un-0",
             "client": "https://www.figma.com/design/dyiwmimDJgaav0uQW9eHgf/Marketplace-Platform?node-id=119616-179299&t=0U7kJQ4ItRWmB2un-0"
         },
-        "details-view": {
+        "details": {
             "vendor": "https://www.figma.com/design/dyiwmimDJgaav0uQW9eHgf/Marketplace-Platform?node-id=57191-298100&t=0U7kJQ4ItRWmB2un-0",
             "operations": "https://www.figma.com/design/dyiwmimDJgaav0uQW9eHgf/Marketplace-Platform?node-id=57230-360268&t=0U7kJQ4ItRWmB2un-0",
             "client": "https://www.figma.com/design/dyiwmimDJgaav0uQW9eHgf/Marketplace-Platform?node-id=119535-179176&t=0U7kJQ4ItRWmB2un-0"
         },
-        "infocard-view": {
+        "infocard": {
             "vendor": "https://www.figma.com/design/dyiwmimDJgaav0uQW9eHgf/Marketplace-Platform?node-id=143792-114403&t=vDxgHfV33aVn9BBO-0",
             "operations": "https://www.figma.com/design/dyiwmimDJgaav0uQW9eHgf/Marketplace-Platform?node-id=143792-114403&t=vDxgHfV33aVn9BBO-0",
             "client": "https://www.figma.com/design/dyiwmimDJgaav0uQW9eHgf/Marketplace-Platform?node-id=143792-114403&t=vDxgHfV33aVn9BBO-0"
         }
     },
     "mobile": {
-        "list-view": {
+        "list": {
             "vendor": null,
             "operations": null,
             "client": null
         },
-        "details-view": {
+        "details": {
             "vendor": null,
             "operations": null,
             "client": null

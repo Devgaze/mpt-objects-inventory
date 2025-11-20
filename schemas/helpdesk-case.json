@@ -1,0 +1,34 @@
+{
+  "name": "Helpdesk Case",
+  "confluence-page": "https://softwareone.atlassian.net/wiki/spaces/mpt/pages/6678315398/Cases",
+  "state-diagram": "https://www.figma.com/design/rHxTpbi2gpbZ4dmVlyeY2S/Object-Diagrams?node-id=5150-637&t=8iojvCy4Lj5VoGrA-0",
+  "desktop": {
+    "grid": {
+      "vendor": "https://www.figma.com/design/sMYzX191RktVW9iseyttjO/Commerce?node-id=16-260294&t=o2YvyPpeaSaSSci8-0",
+      "operations": "https://www.figma.com/design/dyiwmimDJgaav0uQW9eHgf/Marketplace-Platform?node-id=121545-154595&t=OeliC1lBWVOocr8L-1",
+      "client": "https://www.figma.com/design/dyiwmimDJgaav0uQW9eHgf/Marketplace-Platform?node-id=143789-137777&t=OeliC1lBWVOocr8L-1"
+    },
+    "details": {
+      "vendor": "https://www.figma.com/design/dyiwmimDJgaav0uQW9eHgf/Marketplace-Platform?node-id=143789-133206&t=OeliC1lBWVOocr8L-1",
+      "operations": "https://www.figma.com/design/dyiwmimDJgaav0uQW9eHgf/Marketplace-Platform?node-id=134648-137394&t=OeliC1lBWVOocr8L-1",
+      "client": "https://www.figma.com/design/dyiwmimDJgaav0uQW9eHgf/Marketplace-Platform?node-id=134648-151136&t=OeliC1lBWVOocr8L-1"
+    },
+    "infocard": {
+      "vendor": "https://www.figma.com/design/dyiwmimDJgaav0uQW9eHgf/Marketplace-Platform?node-id=143869-135149&t=eeVm54S3zyb84u10-1",
+      "operations": "https://www.figma.com/design/dyiwmimDJgaav0uQW9eHgf/Marketplace-Platform?node-id=143789-142096&t=eeVm54S3zyb84u10-1",
+      "client": "https://www.figma.com/design/dyiwmimDJgaav0uQW9eHgf/Marketplace-Platform?node-id=143869-135025&t=eeVm54S3zyb84u10-1"
+    }
+  },
+  "mobile": {
+    "list": {
+      "vendor": null,
+      "operations": null,
+      "client": null
+    },
+    "details": {
+      "vendor": null,
+      "operations": null,
+      "client": null
+    }
+  }
+}

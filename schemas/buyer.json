@@ -1,0 +1,34 @@
+{
+    "name": "Buyer",
+    "confluence-page": "https://softwareone.atlassian.net/wiki/spaces/mpt/pages/6786221213/DG+Buyer+object",
+    "state-diagram": "https://www.figma.com/design/rHxTpbi2gpbZ4dmVlyeY2S/Object-Diagrams?node-id=1145-906&t=4LfG65fU7z0tTeAP-11",
+    "desktop": {
+        "grid": {
+            "vendor": null,
+            "operations": "https://www.figma.com/design/dyiwmimDJgaav0uQW9eHgf/Marketplace-Platform?node-id=67007-151029&t=lIEEKbBKcu7MqdU0-4",
+            "client": "https://www.figma.com/design/dyiwmimDJgaav0uQW9eHgf/Marketplace-Platform?node-id=35847-41429&t=lIEEKbBKcu7MqdU0-11"
+        },
+        "details": {
+            "vendor": null,
+            "operations": "https://www.figma.com/design/dyiwmimDJgaav0uQW9eHgf/Marketplace-Platform?node-id=67007-157864&t=lIEEKbBKcu7MqdU0-11",
+            "client": "https://www.figma.com/design/dyiwmimDJgaav0uQW9eHgf/Marketplace-Platform?node-id=33057-125480&t=lIEEKbBKcu7MqdU0-11"
+        },
+        "infocard": {
+            "vendor": "https://www.figma.com/design/dyiwmimDJgaav0uQW9eHgf/Marketplace-Platform?node-id=61244-93545&t=lIEEKbBKcu7MqdU0-11",
+            "operations": "https://www.figma.com/design/dyiwmimDJgaav0uQW9eHgf/Marketplace-Platform?node-id=61244-93545&t=lIEEKbBKcu7MqdU0-11",
+            "client": "https://www.figma.com/design/dyiwmimDJgaav0uQW9eHgf/Marketplace-Platform?node-id=61244-93545&t=lIEEKbBKcu7MqdU0-11"
+        }
+    },
+    "mobile": {
+        "list": {
+            "vendor": null,
+            "operations": "https://www.figma.com/design/y150KEJI7hSn7KzRuG8uyu/Native-Apps?node-id=4295-41683&t=jZFtay7OzHzDZe1C-11",
+            "client": null
+        },
+        "details": {
+            "vendor": "https://www.figma.com/design/y150KEJI7hSn7KzRuG8uyu/Native-Apps?node-id=4237-37553&t=jZFtay7OzHzDZe1C-11",
+            "operations": "https://www.figma.com/design/y150KEJI7hSn7KzRuG8uyu/Native-Apps?node-id=4237-37205&t=jZFtay7OzHzDZe1C-11",
+            "client": "https://www.figma.com/design/y150KEJI7hSn7KzRuG8uyu/Native-Apps?node-id=4237-37379&t=jZFtay7OzHzDZe1C-11"
+        }
+    }
+}

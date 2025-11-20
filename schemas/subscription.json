@@ -3,29 +3,34 @@
     "confluence-page": "https://softwareone.atlassian.net/wiki/spaces/mpt/pages/6781501443/DG+Subscription+Object",
     "state-diagram": "https://www.figma.com/design/rHxTpbi2gpbZ4dmVlyeY2S/Object-Diagrams?node-id=2129-487&t=dR2OVccKNCA0oWWg-1",
     "desktop": {
-        "grid-view": {
-            "vendor": "https://www.figma.com/design/dyiwmimDJgaav0uQW9eHgf/Marketplace-Platform?node-id=34235-213995&t=5E2zABFflocKRfko-1",
-            "operations": "https://www.figma.com/design/dyiwmimDJgaav0uQW9eHgf/Marketplace-Platform?node-id=34235-196785&t=5E2zABFflocKRfko-1",
+        "grid": {
+            "vendor": "https://www.figma.com/design/sMYzX191RktVW9iseyttjO/Commerce?node-id=1-44011&t=JlTAg7CNpRHJofIw-0",
+            "operations": "https://www.figma.com/design/sMYzX191RktVW9iseyttjO/Commerce?node-id=1-42774&t=JlTAg7CNpRHJofIw-0",
             "client": "https://www.figma.com/design/sMYzX191RktVW9iseyttjO/Commerce?node-id=1-39500&t=zt3faBq5tRYLVbW2-0"
         },
-        "details-view": {
+        "details": {
             "vendor": "https://www.figma.com/design/sMYzX191RktVW9iseyttjO/Commerce?node-id=1-44128&t=zt3faBq5tRYLVbW2-0",
             "operations": "https://www.figma.com/design/sMYzX191RktVW9iseyttjO/Commerce?node-id=1-43047&t=zt3faBq5tRYLVbW2-0",
             "client": "https://www.figma.com/design/sMYzX191RktVW9iseyttjO/Commerce?node-id=1-39755&t=zt3faBq5tRYLVbW2-0"
         },
-        "infocard-view": {
+        "infocard": {
             "vendor": "https://www.figma.com/design/dyiwmimDJgaav0uQW9eHgf/Marketplace-Platform?node-id=58554-115996&t=NcndYOV8EJ5lvfDL-1",
             "operations": "https://www.figma.com/design/dyiwmimDJgaav0uQW9eHgf/Marketplace-Platform?node-id=58554-115996&t=NcndYOV8EJ5lvfDL-1",
             "client": "https://www.figma.com/design/dyiwmimDJgaav0uQW9eHgf/Marketplace-Platform?node-id=58554-115996&t=NcndYOV8EJ5lvfDL-1"
+        },
+        "spotlight": {
+            "vendor": null,
+            "operations": null,
+            "client": "https://www.figma.com/design/dyiwmimDJgaav0uQW9eHgf/Marketplace-Platform?node-id=87478-373082&t=mbkAdwLJSYeA11ah-0"
         }
     },
     "mobile": {
-        "list-view": {
+        "list": {
             "vendor": null,
             "operations": null,
             "client": null
         },
-        "details-view": {
+        "details": {
             "vendor": null,
             "operations": null,
             "client": null
