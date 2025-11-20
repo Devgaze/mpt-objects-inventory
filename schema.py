@@ -30,8 +30,9 @@ class SchemaRecord:
 
         print(f'Rendering Figma image for {self.unique_key} url: {self.figma_link}...')
 
+        self.filename = self.parent.image_not_defined
+
         if self.figma_link is None:
-            self.filename = self.parent.page_not_found_image
             self.status = self.SCHEMA_RECORD_STATUS_NOT_FOUND
             print(f'  Page not found for {self.unique_key} - using {self.filename}')
             return
@@ -41,7 +42,7 @@ class SchemaRecord:
             self.filename = os.path.join(output_folder, self.filename)
             if cfg.SKIP_ACTUAL_RENDERING_FOR_DEBUG:
                 if not os.path.exists(self.filename):
-                    self.filename = self.parent.no_content_image
+                    self.filename = self.parent.image_not_defined
                     self.status = self.SCHEMA_RECORD_STATUS_NOT_FOUND
                 else:
                     self.status = self.SCHEMA_RECORD_STATUS_RENDERED
@@ -52,8 +53,8 @@ class SchemaRecord:
             print(f'  Successfully rendered Figma image for {self.unique_key} - {self.filename}')
 
         except Exception as e:
-            print(f'  Error rendering Figma image for {self.unique_key}: {e} - using {self.parent.no_content_image}')
-            self.filename = self.parent.no_content_image
+            print(f'  Error rendering Figma image for {self.unique_key}: {e} - using {self.parent.image_rendering_error}')
+            self.filename = self.parent.image_rendering_error
             self.status = self.SCHEMA_RECORD_STATUS_ERROR
         
         return self.filename
@@ -144,8 +145,8 @@ class ObjectSchema:
 
     def __init__(self, schema_file):
 
-        self.page_not_found_image = os.path.join(os.path.dirname(__file__), 'media', 'page-not-found.png')
-        self.no_content_image = os.path.join(os.path.dirname(__file__), 'media', 'no-content.png')
+        self.image_rendering_error = os.path.join(os.path.dirname(__file__), 'media', 'image-rendering-error.png')
+        self.image_not_defined = os.path.join(os.path.dirname(__file__), 'media', 'image-not-defined.png')
 
         with open(schema_file, 'r', encoding='utf-8') as f:
             self._object_schema = json.load(f)
