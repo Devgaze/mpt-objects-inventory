@@ -21,7 +21,7 @@ def write_summary_page(object_schemas):
 
         elif schema_record.status == SchemaRecord.SCHEMA_RECORD_STATUS_ERROR:
             return '''
-                <p style="text-align: center;"><ac:emoticon ac:emoji-fallback=":cross_mark:" ac:emoji-id="atlassian-cross_mark" ac:emoji-shortname=":cross_mark:" ac:name="cross"></ac:emoticon> <span style="color: rgb(191,38,0);">Error</span></p>
+                <p style="text-align: center;"><ac:emoticon ac:emoji-fallback="❌" ac:emoji-id="atlassian-cross_mark" ac:emoji-shortname=":cross_mark:" ac:name="cross"></ac:emoticon> <span style="color: rgb(191,38,0);">Error</span></p>
             '''
 
         return f'''
