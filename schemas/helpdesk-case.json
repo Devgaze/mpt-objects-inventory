@@ -1,15 +1,15 @@
 {
   "name": "Helpdesk Case",
-  "confluence-page": "https://softwareone.atlassian.net/wiki/spaces/mpt/pages/6678315398/Cases",
+  "confluence-page": "https://softwareone.atlassian.net/wiki/spaces/mpt/pages/6830065084/DG+Case+Object",
   "state-diagram": "https://www.figma.com/design/rHxTpbi2gpbZ4dmVlyeY2S/Object-Diagrams?node-id=5150-637&t=8iojvCy4Lj5VoGrA-0",
   "desktop": {
     "grid": {
       "vendor": "https://www.figma.com/design/dyiwmimDJgaav0uQW9eHgf/Marketplace-Platform?node-id=145259-199753&t=MnNCHnSDKnvEoTMJ-1",
       "operations": "https://www.figma.com/design/dyiwmimDJgaav0uQW9eHgf/Marketplace-Platform?node-id=121545-154595&t=OeliC1lBWVOocr8L-1",
-      "client": "https://www.figma.com/design/dyiwmimDJgaav0uQW9eHgf/Marketplace-Platform?node-id=134536-115271&t=MnNCHnSDKnvEoTMJ-1"
+      "client": "https://www.figma.com/design/dyiwmimDJgaav0uQW9eHgf/Marketplace-Platform?node-id=146184-112633&t=21y1XlASy9eScXuN-1"
     },
     "details": {
-      "vendor": "https://www.figma.com/design/dyiwmimDJgaav0uQW9eHgf/Marketplace-Platform?node-id=145687-111882&t=MnNCHnSDKnvEoTMJ-1",
+      "vendor": "https://www.figma.com/design/dyiwmimDJgaav0uQW9eHgf/Marketplace-Platform?node-id=145687-111882&t=21y1XlASy9eScXuN-1",
       "operations": "https://www.figma.com/design/dyiwmimDJgaav0uQW9eHgf/Marketplace-Platform?node-id=134648-137394&t=OeliC1lBWVOocr8L-1",
       "client": "https://www.figma.com/design/dyiwmimDJgaav0uQW9eHgf/Marketplace-Platform?node-id=134648-117540&t=MnNCHnSDKnvEoTMJ-1"
     },
@@ -17,6 +17,11 @@
       "vendor": "https://www.figma.com/design/dyiwmimDJgaav0uQW9eHgf/Marketplace-Platform?node-id=143869-135149&t=eeVm54S3zyb84u10-1",
       "operations": "https://www.figma.com/design/dyiwmimDJgaav0uQW9eHgf/Marketplace-Platform?node-id=143789-142096&t=eeVm54S3zyb84u10-1",
       "client": "https://www.figma.com/design/dyiwmimDJgaav0uQW9eHgf/Marketplace-Platform?node-id=143869-135025&t=eeVm54S3zyb84u10-1"
+    },
+    "spotlight": {
+      "vendor": "https://www.figma.com/design/dyiwmimDJgaav0uQW9eHgf/Marketplace-Platform?node-id=145701-111705&t=21y1XlASy9eScXuN-1",
+      "operations": "https://www.figma.com/design/dyiwmimDJgaav0uQW9eHgf/Marketplace-Platform?node-id=123365-69912&t=21y1XlASy9eScXuN-1",
+      "client": "https://www.figma.com/design/dyiwmimDJgaav0uQW9eHgf/Marketplace-Platform?node-id=123365-95894&t=21y1XlASy9eScXuN-1"
     }
   },
   "mobile": {
