@@ -1,0 +1,34 @@
+{
+    "name": "Feedback",
+    "confluence-page": "https://softwareone.atlassian.net/wiki/spaces/mpt/pages/6785631506/DG+Feedback+object",
+    "state-diagram": "https://www.figma.com/design/rHxTpbi2gpbZ4dmVlyeY2S/Object-Diagrams?node-id=7565-1154&t=ILroRxpMdkYhxkJj-11",
+    "desktop": {
+        "grid": {
+            "vendor": null,
+            "operations": "https://www.figma.com/design/dyiwmimDJgaav0uQW9eHgf/Marketplace-Platform?node-id=124661-97569&t=cyh8RcRJAnEEZi5Y-11",
+            "client": "https://www.figma.com/design/dyiwmimDJgaav0uQW9eHgf/Marketplace-Platform?node-id=124913-98637&t=cyh8RcRJAnEEZi5Y-11"
+        },
+        "details": {
+            "vendor": null,
+            "operations": "https://www.figma.com/design/dyiwmimDJgaav0uQW9eHgf/Marketplace-Platform?node-id=123626-347860&t=cyh8RcRJAnEEZi5Y-11",
+            "client": "https://www.figma.com/design/dyiwmimDJgaav0uQW9eHgf/Marketplace-Platform?node-id=124913-99255&t=cyh8RcRJAnEEZi5Y-11"
+        },
+        "infocard": {
+            "vendor": "https://www.figma.com/design/dyiwmimDJgaav0uQW9eHgf/Marketplace-Platform?node-id=143792-114397&t=cyh8RcRJAnEEZi5Y-11",
+            "operations": "https://www.figma.com/design/dyiwmimDJgaav0uQW9eHgf/Marketplace-Platform?node-id=143792-114397&t=cyh8RcRJAnEEZi5Y-11",
+            "client": "https://www.figma.com/design/dyiwmimDJgaav0uQW9eHgf/Marketplace-Platform?node-id=143792-114397&t=cyh8RcRJAnEEZi5Y-11"
+        }
+    },
+    "mobile": {
+        "list": {
+            "vendor": null,
+            "operations": null,
+            "client": null
+        },
+        "details": {
+            "vendor": null,
+            "operations": null,
+            "client": null
+        }
+    }
+}
