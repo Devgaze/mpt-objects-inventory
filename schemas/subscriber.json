@@ -9,9 +9,9 @@
             "client": "https://www.figma.com/design/lhJsW4s8riyfaeCaYaucvW/Notifications?node-id=694-97264&t=XURZogpBEWlTkA4x-0"
         },
         "details": {
-            "vendor": null,
-            "operations": null,
-            "client": null
+            "vendor": "https://www.figma.com/design/lhJsW4s8riyfaeCaYaucvW/Notifications?node-id=694-99248&t=vFiWTcjrh7zBprv1-0",
+            "operations": "https://www.figma.com/design/lhJsW4s8riyfaeCaYaucvW/Notifications?node-id=694-93491&t=vFiWTcjrh7zBprv1-0",
+            "client": "https://www.figma.com/design/lhJsW4s8riyfaeCaYaucvW/Notifications?node-id=694-97624&t=vFiWTcjrh7zBprv1-0"
         },
         "infocard": {
             "vendor": null,
@@ -19,6 +19,7 @@
             "client": null
         }
     },
+
     "mobile": {
         "list": {
             "vendor": null,
