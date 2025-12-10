@@ -24,6 +24,16 @@
       "client": "https://www.figma.com/design/dyiwmimDJgaav0uQW9eHgf/Marketplace-Platform?node-id=123365-95894&t=21y1XlASy9eScXuN-1"
     }
   },
+  "email-notifications": {
+    "vendor": {},
+    "operations": {},
+    "client": {
+      "Case created on behalf of reporter": "https://www.figma.com/design/lhJsW4s8riyfaeCaYaucvW/Notifications?node-id=1085-13827&t=XrPWpk0XFscfAtJc-1",
+      "Case created by reporter": "https://www.figma.com/design/lhJsW4s8riyfaeCaYaucvW/Notifications?node-id=1089-15233&t=XrPWpk0XFscfAtJc-1",
+      "Case updated (querying reporter)": "https://www.figma.com/design/lhJsW4s8riyfaeCaYaucvW/Notifications?node-id=1089-15335&t=XrPWpk0XFscfAtJc-1",
+      "Case completed": "https://www.figma.com/design/lhJsW4s8riyfaeCaYaucvW/Notifications?node-id=1089-15437&t=XrPWpk0XFscfAtJc-1"
+    }
+  },
   "mobile": {
     "list": {
       "vendor": null,
