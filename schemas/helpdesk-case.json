@@ -28,8 +28,7 @@
     "vendor": {},
     "operations": {},
     "client": {
-      "Case created on behalf of reporter": "https://www.figma.com/design/lhJsW4s8riyfaeCaYaucvW/Notifications?node-id=1085-13827&t=XrPWpk0XFscfAtJc-1",
-      "Case created by reporter": "https://www.figma.com/design/lhJsW4s8riyfaeCaYaucvW/Notifications?node-id=1089-15233&t=XrPWpk0XFscfAtJc-1",
+      "Case created": "https://www.figma.com/design/lhJsW4s8riyfaeCaYaucvW/Notifications?node-id=1089-15233&t=XrPWpk0XFscfAtJc-1",
       "Case updated (querying reporter)": "https://www.figma.com/design/lhJsW4s8riyfaeCaYaucvW/Notifications?node-id=1089-15335&t=XrPWpk0XFscfAtJc-1",
       "Case completed": "https://www.figma.com/design/lhJsW4s8riyfaeCaYaucvW/Notifications?node-id=1089-15437&t=XrPWpk0XFscfAtJc-1"
     }
